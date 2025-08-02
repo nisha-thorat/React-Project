@@ -2,8 +2,7 @@ import React, { useEffect, useState } from "react";
 import "./App.css";
 
 const WeatherApp = () => {
-  const apiKey = import.meta.env.VITE_WEATHER_API_KEY;
-
+  const apiKey = "2ce4d2f97192b24cb90e867580e50448";
   const [city, setCity] = useState("");
   const [weather, setWeather] = useState(null);
   const [error, setError] = useState("");
@@ -117,4 +116,4 @@ const WeatherApp = () => {
   );
 };
 
-export default WeatherApp;
+export default WeatherApp; 
